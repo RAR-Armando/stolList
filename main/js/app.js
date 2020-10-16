@@ -17,10 +17,12 @@ const chettext = document.querySelector(".chettext")
 const ptnbtn = document.querySelector(".ptnbtn")
 const ptnmenu = document.querySelector(".ptnmenu")
 const ptntext = document.querySelector(".ptntext")
+const imgTimeptn = document.querySelector(".imgTimeptn")
 //-----------------------------------------------------------------------
 const sbtbtn = document.querySelector(".sbtbtn")
 const sbtmenu = document.querySelector(".sbtmenu")
 const sbttext = document.querySelector(".sbttext")
+const imgTimesbt = document.querySelector(".imgTimesbt")
 
 btnMenu.addEventListener("click", function () {
    menuOpenActive.classList.toggle("menuOpenActive")
@@ -45,9 +47,11 @@ chetbtn.addEventListener("click", function () {
 ptnbtn.addEventListener("click", function () {
    ptnmenu.classList.toggle("ptnmenuopen")
    ptntext.classList.toggle("ptntextopen")
+   imgTimeptn.classList.toggle("imgTimeOpen")
 });
 
 sbtbtn.addEventListener("click", function () {
    sbtmenu.classList.toggle("sbtmenuopen")
    sbttext.classList.toggle("sbttextopen")
+   imgTimesbt.classList.toggle("imgTimeOpen")
 });
